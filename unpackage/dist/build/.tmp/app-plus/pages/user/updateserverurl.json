@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "维护服务器地址",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "back",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

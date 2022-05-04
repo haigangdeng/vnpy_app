@@ -1,0 +1,1 @@
+<view style="{{'width:'+(width+'px')+';'+('height:'+(width+'px')+';')}}"><slot></slot></view>

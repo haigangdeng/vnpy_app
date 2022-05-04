@@ -1,0 +1,9 @@
+
+.SegmentedControlIn{width:500rpx; padding:20rpx 125rpx;}
+.ucenter-line{width:100%; height:10px; background:#F4F5F6; margin:8px 0;}
+.grace-button{
+		display: block;
+		white-space: nowrap;
+		width: 120rpx;
+}
+

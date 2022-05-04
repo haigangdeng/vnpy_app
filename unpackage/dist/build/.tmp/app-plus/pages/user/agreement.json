@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "用户协议",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "back",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

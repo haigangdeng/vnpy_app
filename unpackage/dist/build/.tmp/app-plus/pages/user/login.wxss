@@ -1,0 +1,33 @@
+
+.demo {
+	margin-top: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+}
+.demo view {
+	width: 100%;
+	text-align: center;
+	padding: 10rpx 2%;
+}
+.demo .btnLogin {
+	width: 45%;
+	min-width: 230rpx;
+}
+.grace-button{
+	display: block;
+	white-space: nowrap;
+	width: 125rpx;
+	height: 80rpx;
+	text-align: center;
+}
+.grace-items-login{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex; width:100%; -webkit-box-align:center; -webkit-align-items:center; align-items:center; -webkit-flex-wrap:nowrap; flex-wrap:nowrap; -webkit-box-pack:justify; -webkit-justify-content:space-between; justify-content:space-between; padding:10rpx 0;}
+.serverurllinkspace{
+	margin: 120rpx;
+}
+

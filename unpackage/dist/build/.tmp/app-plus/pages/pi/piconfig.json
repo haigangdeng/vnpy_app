@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "盘点设置",
+  "usingComponents": {
+    "grace-segmented-control": "/graceUI/components/graceSegmentedControl"
+  }
+}

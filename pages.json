@@ -1,0 +1,124 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/help/help",
+		    "style": {
+		    	"navigationBarTitleText": "VeighNa App使用步骤"
+		    }
+		},
+		{
+			"path": "pages/user/usercenter",
+			"style": {
+				"navigationBarTitleText": "用户中心",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		
+		{
+			"path": "pages/user/updateserverurl",
+			"style": {
+				"navigationBarTitleText": "维护服务器地址",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "back",
+							"float": "left"
+						}]
+					}
+				}
+			}
+		},	
+		{
+			"path": "pages/main/asset",
+			"style": {
+				"navigationBarTitleText": "资金",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/agreement",
+			"style": {
+				"navigationBarTitleText": "用户服务协议",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "back",
+							"float": "left"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/user/privacy",
+			"style": {
+				"navigationBarTitleText": "用户隐私政策",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "back",
+							"float": "left"
+						}]
+					}
+				}
+			}
+		},       
+		{
+            "path" : "pages/version/version",
+            "style" : {}
+        },
+		
+		{
+			"path": "pages/main/quant",
+			"style": {
+				"navigationBarTitleText": "操盘",
+				"enablePullDownRefresh": true
+			}
+		}
+
+        
+    ],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#007aff",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/main/asset",
+				"text": "资金",
+				"iconPath": "static/img/report_unchoose.png",
+				"selectedIconPath": "static/img/report_choose.png"
+			},
+			{
+				"pagePath": "pages/main/quant",
+				"text": "操盘",
+				"iconPath": "static/img/search.png",
+				"selectedIconPath": "static/img/searchHL.png"
+			},
+			{
+				"pagePath": "pages/help/help",
+				"text": "帮助",
+				"iconPath": "static/img/help_unchoose.png",
+				"selectedIconPath": "static/img/help_choose.png"
+			},
+			{
+				"pagePath": "pages/user/usercenter",
+				"text": "我的",
+				"iconPath": "static/img/user.png",
+				"selectedIconPath": "static/img/userHL.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "vnpyApp",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

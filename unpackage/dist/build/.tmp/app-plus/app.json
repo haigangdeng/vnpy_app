@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/user/login",
+    "pages/main/main",
+    "pages/pi/piconfig",
+    "pages/pi/pi",
+    "pages/pi/pifirst",
+    "pages/pi/pisecond",
+    "pages/pi/pithird",
+    "pages/pi/pirouter",
+    "pages/user/user",
+    "pages/user/usercenter",
+    "pages/user/updateserverurl",
+    "pages/user/changepassword",
+    "pages/user/changeuserinfo",
+    "pages/reports/progress",
+    "pages/user/contactus",
+    "pages/index/Test",
+    "pages/reports/reports",
+    "pages/user/agreement"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "盘点App",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#007aff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "进度",
+        "iconPath": "static/img/home.png",
+        "selectedIconPath": "static/img/homeHL.png"
+      },
+      {
+        "pagePath": "pages/pi/pi",
+        "text": "盘点",
+        "iconPath": "static/img/search.png",
+        "selectedIconPath": "static/img/searchHL.png"
+      },
+      {
+        "pagePath": "pages/user/usercenter",
+        "text": "我的",
+        "iconPath": "static/img/user.png",
+        "selectedIconPath": "static/img/userHL.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "盘点App仓库版",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {}
+}

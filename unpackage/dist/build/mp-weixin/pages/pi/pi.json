@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "盘点",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "grace-nav": "/graceUI/components/graceNavBar"
+  }
+}

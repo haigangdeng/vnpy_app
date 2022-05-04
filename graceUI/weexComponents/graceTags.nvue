@@ -1,0 +1,34 @@
+<template>
+	<view class="gui-tags">
+		<view class="gui-tags-item" v-for="(item, index) in items" :key="index" @tap="removeTag(index)" 
+		:style="{backgroundColor:bgColor, borderRadius:borderRadius, marginRight:margin+'rpx', marginBottom:margin+'rpx'}">
+			<text class="grace-icons" :style="{fontSize:fontSize+'rpx', lineHeight:(fontSize*1.5)+'rpx', color:color}">{{item}} &#xe610;</text>
+		</view>
+	</view>
+</template>
+<script>
+export default{
+	props:{
+		fontSize:{type:Number, default:26},
+		color:{type:String, default:'#333333'},
+		bgColor:{type:String, default:'#F6F7F8'},
+		borderRadius:{type:String, default:'6rpx'},
+		items:{type:Array, default:function(){return [];}},
+		margin:{type:Number, default:20}
+	},
+	data() {
+		return {
+			
+		}
+	},
+	methods:{
+		removeTag : function (index) {
+			this.$emit('removeTag', index);
+		}
+	}
+}
+</script>
+<style scoped>
+.gui-tags{flex-direction:row; flex-wrap:wrap;}
+.gui-tags-item{padding-left:20rpx; padding-right:20rpx; padding-top:12rpx; padding-bottom:12rpx; line-height:38rpx;}
+</style>

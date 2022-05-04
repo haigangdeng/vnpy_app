@@ -1,0 +1,13 @@
+
+@font-face {font-family:"gFont"; src:url('https://at.alicdn.com/t/font_1348684_f1lellt295.ttf') format('truetype');}
+@-webkit-keyframes grace-rotate360{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);}
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}}
+@keyframes grace-rotate360{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+50%{-webkit-transform:rotate(180deg);transform:rotate(180deg);}
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}}
+.grace-loading{display:-webkit-box;display:-webkit-flex;display:flex; width:100%; -webkit-box-pack:center; -webkit-justify-content:center; justify-content:center; padding:16rpx 0; padding-bottom:36rpx; line-height:40rpx; color:#888;}
+.grace-loading text{margin-left:12rpx;}
+.grace-loading-icon{width:40rpx; height:40rpx; -webkit-box-pack:center; -webkit-justify-content:center; justify-content:center; line-height:40rpx; font-size:30rpx; text-align:center; font-family:"gFont" !important; -webkit-animation:grace-rotate360 1200ms infinite linear; animation:grace-rotate360 1200ms infinite linear;}
+.grace-loading-icon:before {content:"\E6C4";}
+

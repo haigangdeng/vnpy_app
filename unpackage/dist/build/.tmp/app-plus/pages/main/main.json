@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "grace-cir-progress": "/graceUI/components/graceCirProgress"
+  }
+}

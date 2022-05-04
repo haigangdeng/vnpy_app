@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "详细进度",
+  "usingComponents": {
+    "grace-cir-progress": "/graceUI/components/graceCirProgress"
+  }
+}

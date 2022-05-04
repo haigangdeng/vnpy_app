@@ -1,0 +1,10 @@
+
+.ucenter-face{width:120rpx !important; height:120rpx !important;}
+.ucenter-face image{width:120rpx !important; height:120rpx !important;}
+.ucenter-line{width:100%; height:10px; background:#F4F5F6; margin:8px 0;}
+.btn-row{
+	width: 90%;
+	-webkit-align-content: center;
+	        align-content: center;
+}
+

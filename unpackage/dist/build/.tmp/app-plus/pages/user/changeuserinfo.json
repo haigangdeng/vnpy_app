@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "更改用户信息",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "back",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "盘点",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "menu"
+      }
+    ]
+  },
+  "usingComponents": {
+    "grace-nav": "/graceUI/components/graceNavBar"
+  }
+}

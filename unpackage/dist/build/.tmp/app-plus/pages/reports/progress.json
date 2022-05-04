@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "详细进度",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "back",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {
+    "grace-cir-progress": "/graceUI/components/graceCirProgress"
+  }
+}
