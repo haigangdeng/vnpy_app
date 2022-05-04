@@ -21,7 +21,7 @@ allow_methods=[""],
 allow_headers=["*"],  
 )  
   
-用HBuilder开直接编辑，其中UI皮肤使用的是GraceUI 3.0版，可自行购买使用。  
+用HBuilder打开直接编辑，其中UI皮肤使用的是GraceUI 3.0版，可自行购买使用。  
 如果嫌麻烦，可以直接扫码安装安卓版  
 
 ![image](https://static.vnpy.com/upload/temp/331c6254-9642-45c2-9462-84879d456da8.png)
