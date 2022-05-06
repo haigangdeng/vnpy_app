@@ -19,6 +19,5 @@ function getUserInfo() {
 export default {
 	appKey,
 	appSecret,
-	getServerUrl,
 	getUserInfo
 }
